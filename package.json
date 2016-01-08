@@ -1,0 +1,9 @@
+{
+	"devDependencies": {
+		"jshint": "latest"
+	},
+	"scripts": {
+		"clean": "rm -r ./dist/* >> /dev/null",
+		"lint": "jshint *.js"
+	}
+}
